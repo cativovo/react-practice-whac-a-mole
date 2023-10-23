@@ -1,0 +1,28 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#board {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  margin: auto;
+  width: 600px;
+}
+
+#board > div {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+#active {
+  background: red;
+}
